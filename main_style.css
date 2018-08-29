@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* cursor: none; */
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-weight: lighter;
+    font-size: 70pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    /*font-family: 'Monoton', cursive;*/
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    top: 30px;
+    left: 30px;
+    font-size: 8pt;
+    color: rgb(179, 179, 179);
+    text-align: left;
+    position: fixed;
+}
+
+a:link, a:visited { 
+    color: rgb(0, 26, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:link:active, a:visited:active { 
+    color: (internal value);
+}
+
+#info {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: lighter;
+    bottom: 30px;
+    right: 30px;
+    font-size: 8pt;
+    color: rgb(146, 146, 146);
+    text-align: right;
+    position: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.disable-select {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
